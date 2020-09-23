@@ -1,0 +1,40 @@
+body{
+ /* background-image: url("../src/hi\ \(11\).jpg");*/
+ background-color: rgb(238, 236, 213);
+
+  
+}
+.app-header{
+  background-image: src();
+  background-color:rgb(24, 57, 77);
+  margin-top: 2px;
+  text-align: center;
+  height: 36px;
+  padding: 15px 32px 4px 14px;
+  font-weight: bolder;
+  font-style: italic;
+  color: whitesmoke;
+  border-color: black;
+    
+}
+img{
+  margin-top: 20px;
+  margin-left: 40px;
+  display:inline-block;
+  border-radius: 10px;
+  max-width:80%;
+  height:300px;
+  padding:0.5px;
+  border:2px solid black;
+}
+.ALL:hover {
+  transform :scale(1.3);
+  -webkit-transition: .2s ease-in-out;
+  transition: .7s ease-in-out;
+  cursor: pointer;
+}
+
+@-ms-viewport{
+  zoom: 1.0;
+  width:extended-to-Zoom;
+}
